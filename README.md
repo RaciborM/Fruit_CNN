@@ -1,6 +1,6 @@
-# Apple Classification Using CNN
+# Fruit_CNN
 
-This project is a binary classification model that uses Convolutional Neural Networks (CNN) to classify apples as either fresh or rotten. The goal of this project is to develop a machine learning model that can distinguish between fresh apples and rotten apples based on images.
+This project is a binary classification model that uses Convolutional Neural Networks (CNN) to classify fruits as either fresh or rotten. The goal of this project is to develop a machine learning model that can distinguish between fresh and rotten apples, bananas and oranges based on images (in code we predict only one type of fruit images). It was my first CNN model that I created during the first semester of my master's degree.
 
 ## Project Overview
 
@@ -42,14 +42,6 @@ The model consists of the following layers:
 - **Matplotlib**: For plotting loss and accuracy graphs and the ROC curve.
 - **scikit-learn**: For metrics like ROC curve and confusion matrix.
 
-## Results
-
-After training the model for 50 epochs, the model will provide:
-
-- **Test accuracy**: The percentage of correctly classified images in the test set.
-- **Confusion Matrix**: To evaluate the number of true positives, false positives, true negatives, and false negatives.
-- **ROC Curve**: The Receiver Operating Characteristic curve to evaluate the model's ability to discriminate between classes.
-
 ## Issues and Improvements
 
 - **Class Imbalance**: The model might struggle if the test set has an unequal distribution of the two classes.
@@ -61,3 +53,17 @@ After training the model for 50 epochs, the model will provide:
 - **OpenCV** for image loading and resizing.
 - **TensorFlow/Keras** for providing the tools to build and train neural networks.
 - **Matplotlib and scikit-learn** for generating evaluation plots and metrics.
+
+## Results
+
+After training the model for 50 epochs, the model will provide:
+
+- **Test accuracy**: The percentage of correctly classified images in the test set.
+![accuracy](https://github.com/user-attachments/assets/ff7e8c90-e57a-4af8-bb5b-4b7b8718b6f1)
+
+- **Confusion Matrix**: To evaluate the number of true positives, false positives, true negatives, and false negatives.
+![conf_matrix](https://github.com/user-attachments/assets/d36fe314-92e9-4bb2-a87d-e3067e5c81d0)
+
+- **ROC Curve**: The Receiver Operating Characteristic curve to evaluate the model's ability to discriminate between classes.
+  ![krzywa_ROC](https://github.com/user-attachments/assets/ed0ecf88-f1b3-486b-872f-355dea4bac61)
+
