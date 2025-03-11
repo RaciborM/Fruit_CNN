@@ -59,11 +59,14 @@ The model consists of the following layers:
 After training the model for 50 epochs, the model will provide:
 
 - **Test accuracy**: The percentage of correctly classified images in the test set.
+- 
 ![accuracy](https://github.com/user-attachments/assets/ff7e8c90-e57a-4af8-bb5b-4b7b8718b6f1)
 
 - **Confusion Matrix**: To evaluate the number of true positives, false positives, true negatives, and false negatives.
+- 
 ![conf_matrix](https://github.com/user-attachments/assets/d36fe314-92e9-4bb2-a87d-e3067e5c81d0)
 
 - **ROC Curve**: The Receiver Operating Characteristic curve to evaluate the model's ability to discriminate between classes.
+- 
   ![krzywa_ROC](https://github.com/user-attachments/assets/ed0ecf88-f1b3-486b-872f-355dea4bac61)
 
